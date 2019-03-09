@@ -1,0 +1,4 @@
+TARGET = file_container
+obj-m := file_container.o
+file_container-objs := src/core.o src/ioctl.o interface.o
+ccflags-y := -I$(src)/include 

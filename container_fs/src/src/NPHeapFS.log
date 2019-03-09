@@ -1,0 +1,23 @@
+
+fcfuse_init()
+    conn:
+    proto_major = 7
+    proto_minor = 23
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = 02331580
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = 02330010
+    logfile = 02331070
+    umask = 00000
+
+fcfuse_access(path="/", mask=04)
+    fcfuse_fullpath:  rootdir = "/home/bunny/CSC501/project/CSC501_RC_Working/project_3/mnt", path = "/", fpath = "/home/bunny/CSC501/project/CSC501_RC_Working/project_3/mnt/"
