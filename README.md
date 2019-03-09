@@ -1,2 +1,2 @@
 # kernel_programming
-Assignments for CSC 505 ( Operating Systems )
+Assignments for CSC 501 ( Operating Systems )
